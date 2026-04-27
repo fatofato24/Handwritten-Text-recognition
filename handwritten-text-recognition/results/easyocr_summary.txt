@@ -1,0 +1,51 @@
+======================================================================
+EASYOCR BASELINE - EVALUATION SUMMARY REPORT
+======================================================================
+
+📊 DATASET STATISTICS
+----------------------------------------------------------------------
+Total Samples Evaluated: 15
+
+✅ ACCURACY METRICS (Threshold-based)
+----------------------------------------------------------------------
+Exact Match (100%):           8/15 ( 53.33%)
+≥70% Match (Levenshtein):     9/15 ( 60.00%)
+≥80% Match (Levenshtein):     9/15 ( 60.00%)
+≥90% Match (Levenshtein):     8/15 ( 53.33%)
+
+📏 LEVENSHTEIN SIMILARITY (0.0-1.0, higher is better)
+----------------------------------------------------------------------
+Average:                   0.7813
+Median:                    1.0000
+Min:                       0.3636
+Max:                       1.0000
+Std Dev:                   0.2632
+
+🔤 WORD-LEVEL ACCURACY (0.0-1.0, higher is better)
+----------------------------------------------------------------------
+Average:                   0.5333
+Median:                    1.0000
+Min:                       0.0000
+Max:                       1.0000
+Std Dev:                   0.5164
+
+❌ CHARACTER ERROR RATE - CER (0.0-1.0, lower is better)
+----------------------------------------------------------------------
+Average:                   0.2476
+Median:                    0.0000
+Min:                       0.0000
+Max:                       0.7143
+Std Dev:                   0.2997
+
+🔍 KEY OBSERVATIONS & INSIGHTS
+----------------------------------------------------------------------
+1. Lower accuracy: Only 60.0% of samples have ≥70% match. Significant model improvements or preprocessing optimization may be needed.
+2. Variable performance: High standard deviation (0.2632) suggests model performs differently on certain types of samples.
+3. Moderate CER: Average CER of 0.2476 suggests room for improvement at character and word levels.
+4. High exact matches: 8 samples (53.3%) are perfectly recognized. This indicates EasyOCR handles many straightforward cases well.
+
+======================================================================
+📁 Output Files Generated:
+   - results/easyocr_evaluation.csv
+   - results/easyocr_summary.txt
+======================================================================
