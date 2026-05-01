@@ -1,0 +1,8 @@
+Method,Accuracy,Avg Similarity
+Baseline,0.60,0.78
+Resize,0.67,0.80
+Gray + Resize,0.67,0.80
+Blur,0.60,0.79
+Threshold,0.60,0.78
+Adaptive,0.40,0.51
+Blur + Threshold,0.60,0.74
