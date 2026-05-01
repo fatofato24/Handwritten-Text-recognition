@@ -1,0 +1,8 @@
+method,raw_accuracy,corrected_accuracy,raw_avg_similarity,corrected_avg_similarity
+gray,0.5625,0.5625,0.7751,0.7535
+resize,0.6875,0.6875,0.7946,0.7957
+gray_resize,0.6875,0.625,0.7912,0.7677
+blur,0.625,0.625,0.7833,0.7609
+threshold,0.625,0.625,0.7729,0.7321
+adaptive,0.375,0.375,0.5193,0.5351
+blur_threshold,0.5625,0.5625,0.7356,0.74

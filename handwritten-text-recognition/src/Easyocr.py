@@ -13,6 +13,7 @@ import os
 import csv
 from tqdm import tqdm
 import sys
+from context_correction import correct_text
 
 # Configuration
 DATA_PATH = "data/raw/"
