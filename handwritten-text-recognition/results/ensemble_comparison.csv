@@ -1,0 +1,29 @@
+filename,ground_truth,easyocr,easyocr_conf,tesseract,tesseract_conf,trocr,trocr_conf,ensemble,ensemble_conf
+image (1).jpeg,racist,reeibt_,0.30967935241797806,reas f-,0.75,nalist,0.85,reeibt,0.636559784139326
+image (2).jpeg,implications,implications,0.9998261356833884,IMplications |,0.75,implications .,0.85,implications,0.8666087118944628
+image (3).jpeg,desire,desire,0.9898451102947043,desire,0.75,desire .,0.85,desire,0.8632817034315682
+image (4).jpeg,Amino,Amino,0.9995807972536881,Amino,0.75,fannino,0.85,amino,0.866526932417896
+image (5).jpeg,gamma,gamma,0.9999850193105412,gamma,0.75,gamma,0.85,gamma,0.8666616731035138
+image (6).jpeg,genetic,genetic,0.986800266233202,":
+genenic..",0.75,genetic,0.85,genetic,0.8622667554110673
+image (7).jpeg,Plants,Clants,0.2872313289825603,,0.0,plants,0.85,clants,0.5686156644912801
+image (8).jpeg,astounding,astounding,0.9991065548397228,ee,0.5,astounding,0.85,astounding,0.7830355182799077
+image (9).jpeg,culture,Culture,0.9567964369934046,,0.0,culture .,0.85,culture,0.9033982184967022
+image (10).jpeg,Nights,ciohs,0.679656907986419,,0.0,night .,0.85,ciohs,0.7648284539932095
+image (11).jpeg,predator,@tedotoe,0.2805046353934831,,0.0,predictation,0.85,tedotoe,0.5652523176967416
+image (12).jpeg,universities,Uni U %1fi,0.20420953152459692,Uw V&Sifi 2,0.75,universities .,0.85,universities,0.6014031771748657
+image (13).jpeg,students,Students,0.5971726049235068,Stubta tes,0.75,students .,0.85,students,0.7323908683078356
+image (14).jpeg,organization,Orqani Sati Dh,0.30436647719766724,O1gtat Sar7 0+;,0.75,organisation .,0.85,organisation,0.6347888257325557
+image (15).jpeg,haircut,iatc c4t,0.30117805113196683,,0.0,haircut .,0.85,haircut,0.5755890255659835
+image (16).jpeg,The writing's on the wall,Tnc kiting's M Me wall,0.530664506412958,The writing!s or the wall,0.75,The writing's on the wall,0.85,the writing s on the wall,0.7102215021376527
+image (17).jpeg,"communication skills, discipline, and confidence","communicalion skills ,_disciblimne , and conkidence.",0.44421492702314613,,0.0,"( Configuration skills , discipline , and",0.85,communicalion skills disciblimne and conkidence,0.647107463511573
+image (18).jpeg,"And if love finds me again, I hope it's someone who",Ool Kou hs hhu A imionl,0.15287010463799713,,0.0,"again , The Baptist is a subsistence teacher",0.85,again the baptist is a subsistence teacher,0.5014350523189985
+image (19).jpeg,Sometimes it's heat and i actually like it,Sorctimes it's Ieat ad Lk (+ . aetually,0.5052393201316748,"Somes 14's weg ond |
+eval Lave th",0.75,Somachimally it is subject . and I,0.85,sorctimes it s ieat ad lk aetually,0.7017464400438916
+image (20).jpeg,Run away from those whose existance bleeds excuses,eon S2hose orhnse existamce bleedbs excuses 72Run OwaUY,0.4286817213751776,"—- “Ruy aunyf till, Tose.
+Mla ee gf gh
+— Llied§ tatusls  ——-",0.75,Although the Spanish Parliament of the Spanish,0.85,although the spanish parliament of the spanish,0.6762272404583926
+image (21).jpeg,Education has played an important role in shaping my personality and career,Educalion_has_played_an imbontant ncle in shaping_my bexsonality_and_caxeen.,0.3431046480251297,,0.0,""" Adaptation has personally and partners , role in",0.85,educalion has played an imbontant nde in shaping my bexsonality and caxeen,0.5965523240125649
+image (22).jpeg,"Rejections, mistakes , failures","mistakes , failures, (ejections ,",0.7090309819768227,,0.0,"Rejections , mistakes , failures .",0.85,mistakes failures ejections,0.7795154909884113
+image (23).jpeg,Thank you so much for taking excellent care of our cat Olive!,Thank Yow so much for excellent care 0f out cat Olive ! taking ,0.6045333662624196,"Thank yor se much tor takin
+excellen£L care of our cat Olive!",0.75,""" Excellent # care of our takingsive ,",0.85,thank yor se much tor takin excellen l care of our cat olive,0.7348444554208066

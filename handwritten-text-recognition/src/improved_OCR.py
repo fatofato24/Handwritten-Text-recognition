@@ -2,38 +2,34 @@ import easyocr
 import cv2
 import os
 import csv
+import Levenshtein
+
 from preprocess import preprocess_image
-from augmentation import augment_image
 from context_correction import correct_text
 
-try:
-    import Levenshtein
-    USE_LEV = True
-except:
-    USE_LEV = False
-
+# =========================
+# OCR ENGINE
+# =========================
 reader = easyocr.Reader(['en'])
 
+
+# =========================
+# PATHS
+# =========================
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 data_path = os.path.join(BASE_DIR, "..", "data", "raw")
 label_file = os.path.join(BASE_DIR, "..", "data", "labels.txt")
 
-summary_file = os.path.join(BASE_DIR, "..", "results", "final_results.csv")
+summary_file = os.path.join(BASE_DIR, "..", "results", "summary_results.csv")
 detailed_file = os.path.join(BASE_DIR, "..", "results", "detailed_results.csv")
 
-# =========================
-# SETTINGS
-# =========================
+os.makedirs(os.path.dirname(summary_file), exist_ok=True)
 
-aug_methods = [
-    "none",
-    "rotate",
-    "noise",
-    "scale",
-    "rotate_noise"
-]
 
+# =========================
+# METHODS
+# =========================
 methods = [
     "gray",
     "resize",
@@ -44,160 +40,128 @@ methods = [
     "blur_threshold"
 ]
 
-# =========================
-# SETUP FILES
-# =========================
 
-os.makedirs(os.path.dirname(summary_file), exist_ok=True)
-
-# Summary CSV
-with open(summary_file, mode='w', newline='', encoding='utf-8') as f:
-    writer = csv.writer(f)
-    writer.writerow([
-        "augmentation",
-        "preprocessing",
+# =========================
+# CSV INIT
+# =========================
+with open(summary_file, "w", newline="", encoding="utf-8") as f:
+    csv.writer(f).writerow([
+        "method",
         "raw_accuracy",
         "corrected_accuracy",
         "raw_avg_similarity",
         "corrected_avg_similarity"
     ])
 
-# Detailed CSV
-with open(detailed_file, mode='w', newline='', encoding='utf-8') as f:
-    writer = csv.writer(f)
-    writer.writerow([
-        "augmentation",
-        "preprocessing",
-        "filename",
-        "actual",
-        "raw_output",
-        "corrected_output",
-        "raw_similarity",
-        "corrected_similarity"
+with open(detailed_file, "w", newline="", encoding="utf-8") as f:
+    csv.writer(f).writerow([
+        "method","filename","actual","raw","corrected",
+        "raw_similarity","corrected_similarity"
     ])
 
+
 # =========================
-# MAIN PIPELINE
+# MAIN LOOP
 # =========================
+for method in methods:
+    print(f"\n===== METHOD: {method} =====")
 
-for aug in aug_methods:
-    print(f"\n==============================")
-    print(f"AUGMENTATION: {aug}")
-    print(f"==============================")
+    raw_correct = 0
+    corrected_correct = 0
+    total = 0
 
-    for method in methods:
-        print(f"\n--- PREPROCESS: {method} ---")
+    raw_sim_list = []
+    corr_sim_list = []
 
-        raw_correct = 0
-        corrected_correct = 0
-        total = 0
+    with open(label_file, "r", encoding="utf-8") as f:
+        for line in f:
+            if not line.strip():
+                continue
 
-        raw_similarities = []
-        corrected_similarities = []
+            filename, actual = line.strip().split(",", 1)
+            img_path = os.path.join(data_path, filename)
 
-        with open(label_file, 'r', encoding='utf-8') as f:
-            for line in f:
-                if not line.strip():
-                    continue
-
-                filename, actual = line.strip().split(',', 1)
-                img_path = os.path.join(data_path, filename)
-
-                image = cv2.imread(img_path)
-                if image is None:
-                    print(f"❌ Could not load: {filename}")
-                    continue
-
-                # STEP 1: AUGMENTATION
-                if aug != "none":
-                    image = augment_image(image, aug)
-
-                # STEP 2: PREPROCESSING
-                processed = preprocess_image(image, method)
-
-                # STEP 3: OCR
-                result = reader.readtext(processed)
-                raw_text = " ".join([r[1] for r in result]) if result else ""
-
-                # STEP 4: CONTEXT CORRECTION
-                corrected_text = correct_text(raw_text)
-
-                # STEP 5: NORMALIZATION
-                actual_clean = actual.lower().strip()
-                raw_clean = raw_text.lower().strip()
-                corrected_clean = corrected_text.lower().strip()
-
-                # STEP 6: SIMILARITY
-                if USE_LEV:
-                    raw_similarity = Levenshtein.ratio(raw_clean, actual_clean)
-                    corrected_similarity = Levenshtein.ratio(corrected_clean, actual_clean)
-                else:
-                    raw_similarity = 1.0 if raw_clean == actual_clean else 0.0
-                    corrected_similarity = 1.0 if corrected_clean == actual_clean else 0.0
-
-                raw_similarities.append(raw_similarity)
-                corrected_similarities.append(corrected_similarity)
-
-                # STEP 7: ACCURACY COUNT
-                if raw_similarity >= 0.7:
-                    raw_correct += 1
-
-                if corrected_similarity >= 0.7:
-                    corrected_correct += 1
-
-                total += 1
-
-                # =========================
-                # PRINT ONLY IMPORTANT CASES
-                # =========================
-                if raw_clean != corrected_clean:
-                    print("\n--- Correction Example ---")
-                    print(f"Image      : {filename}")
-                    print(f"Actual     : {actual_clean}")
-                    print(f"Raw OCR    : {raw_clean}")
-                    print(f"Corrected  : {corrected_clean}")
-
-                # =========================
-                # SAVE DETAILED RESULT
-                # =========================
-                with open(detailed_file, mode='a', newline='', encoding='utf-8') as df:
-                    writer = csv.writer(df)
-                    writer.writerow([
-                        aug,
-                        method,
-                        filename,
-                        actual_clean,
-                        raw_clean,
-                        corrected_clean,
-                        round(raw_similarity, 4),
-                        round(corrected_similarity, 4)
-                    ])
-
-        # =========================
-        # FINAL METRICS
-        # =========================
-        if total > 0:
-            raw_accuracy = raw_correct / total
-            corrected_accuracy = corrected_correct / total
-
-            raw_avg_similarity = sum(raw_similarities) / len(raw_similarities)
-            corrected_avg_similarity = sum(corrected_similarities) / len(corrected_similarities)
-
-            print(f"\nRAW Accuracy: {raw_accuracy:.2f}")
-            print(f"CORRECTED Accuracy: {corrected_accuracy:.2f}")
+            image = cv2.imread(img_path)
+            if image is None:
+                continue
 
             # =========================
-            # SAVE SUMMARY
+            # PREPROCESS
             # =========================
-            with open(summary_file, mode='a', newline='', encoding='utf-8') as f:
-                writer = csv.writer(f)
-                writer.writerow([
-                    aug,
-                    method,
-                    round(raw_accuracy, 4),
-                    round(corrected_accuracy, 4),
-                    round(raw_avg_similarity, 4),
-                    round(corrected_avg_similarity, 4)
+            processed = preprocess_image(image, method)
+
+            # =========================
+            # OCR
+            # =========================
+            result = reader.readtext(processed)
+
+            raw_text = " ".join([r[1] for r in result]) if result else ""
+
+            # =========================
+            # ENHANCED CONTEXT CORRECTION (with ensemble voting)
+            # =========================
+            corrected_text = correct_text(raw_text, result)
+
+            # =========================
+            # NORMALIZE
+            # =========================
+            actual_c = actual.lower().strip()
+            raw_c = raw_text.lower().strip()
+            corr_c = corrected_text.lower().strip()
+
+            # =========================
+            # SIMILARITY
+            # =========================
+            raw_sim = Levenshtein.ratio(raw_c, actual_c)
+            corr_sim = Levenshtein.ratio(corr_c, actual_c)
+
+            raw_sim_list.append(raw_sim)
+            corr_sim_list.append(corr_sim)
+
+            # =========================
+            # ACCURACY
+            # =========================
+            if raw_sim >= 0.7:
+                raw_correct += 1
+            if corr_sim >= 0.7:
+                corrected_correct += 1
+
+            total += 1
+
+            # =========================
+            # DEBUG
+            # =========================
+            if raw_c != corr_c:
+                print("\n--- Example ---")
+                print("Actual    :", actual_c)
+                print("Raw OCR   :", raw_c)
+                print("Corrected :", corr_c)
+
+            # =========================
+            # SAVE DETAIL
+            # =========================
+            with open(detailed_file, "a", newline="", encoding="utf-8") as f:
+                csv.writer(f).writerow([
+                    method, filename, actual_c,
+                    raw_c, corr_c,
+                    round(raw_sim,4),
+                    round(corr_sim,4)
                 ])
 
-print("\n✅ DONE — Results saved in 'results/' folder")
+    # =========================
+    # FINAL RESULTS
+    # =========================
+    if total > 0:
+        print(f"\nRAW Accuracy: {raw_correct/total:.2f}")
+        print(f"CORRECTED Accuracy: {corrected_correct/total:.2f}")
+        print(f"RAW Avg Similarity: {sum(raw_sim_list)/total:.2f}")
+        print(f"CORR Avg Similarity: {sum(corr_sim_list)/total:.2f}")
+
+        with open(summary_file, "a", newline="", encoding="utf-8") as f:
+            csv.writer(f).writerow([
+                method,
+                round(raw_correct/total,4),
+                round(corrected_correct/total,4),
+                round(sum(raw_sim_list)/total,4),
+                round(sum(corr_sim_list)/total,4)
+            ])
