@@ -1,0 +1,561 @@
+augmentation,preprocessing,filename,actual,raw_output,corrected_output,raw_similarity,corrected_similarity
+none,gray,image (1).jpeg,racist,reet_,rest,0.3636,0.6
+none,gray,image (2).jpeg,implications,implications,implication,1.0,0.9565
+none,gray,image (3).jpeg,desire,desire,desire,1.0,1.0
+none,gray,image (4).jpeg,amino,amino,among,1.0,0.6
+none,gray,image (5).jpeg,gamma,gamma,mamma,1.0,0.8
+none,gray,image (6).jpeg,genetic,genetic,genetic,1.0,1.0
+none,gray,image (7).jpeg,plants,(plants,plants,0.9231,1.0
+none,gray,image (8).jpeg,astounding,astounding,astounding,1.0,1.0
+none,gray,image (9).jpeg,culture,culture,culture,1.0,1.0
+none,gray,image (10).jpeg,nights,ciohs,cross,0.5455,0.1818
+none,gray,image (11).jpeg,predator,@tedotoe,tedotoe,0.5,0.5333
+none,gray,image (12).jpeg,universities,uni u %s1f1,un u soft,0.3478,0.381
+none,gray,image (13).jpeg,students,students,students,1.0,1.0
+none,gray,image (14).jpeg,organization,orqani satibh,organs satin,0.64,0.75
+none,gray,image (15).jpeg,haircut,iatc c4t,it cut,0.4,0.6154
+none,gray,image (16).jpeg,the writing's on the wall,tnc kiting's m me ball,tic biting s m me ball,0.6809,0.6383
+none,resize,image (1).jpeg,racist,ree5t_,rest,0.3333,0.6
+none,resize,image (2).jpeg,implications,implications,implication,1.0,0.9565
+none,resize,image (3).jpeg,desire,desire,desire,1.0,1.0
+none,resize,image (4).jpeg,amino,amino,among,1.0,0.6
+none,resize,image (5).jpeg,gamma,gamma,mamma,1.0,0.8
+none,resize,image (6).jpeg,genetic,genetic,genetic,1.0,1.0
+none,resize,image (7).jpeg,plants,(qlants,plants,0.7692,1.0
+none,resize,image (8).jpeg,astounding,astounding,astounding,1.0,1.0
+none,resize,image (9).jpeg,culture,culture,culture,1.0,1.0
+none,resize,image (10).jpeg,nights,cigks,signs,0.5455,0.5455
+none,resize,image (11).jpeg,predator,@edotoz,editor,0.5333,0.7143
+none,resize,image (12).jpeg,universities,uni 1 %8if-88,un 1 if 88,0.32,0.2727
+none,resize,image (13).jpeg,students,students,students,1.0,1.0
+none,resize,image (14).jpeg,organization,organi sati dh,organs sat do,0.6923,0.64
+none,resize,image (15).jpeg,haircut,hatcut,hatcut,0.7692,0.7692
+none,resize,image (16).jpeg,the writing's on the wall,thc kritiny's m me wall,the writing s m me wall,0.75,0.8333
+none,gray_resize,image (1).jpeg,racist,ree5t_,rest,0.3333,0.6
+none,gray_resize,image (2).jpeg,implications,implications,implication,1.0,0.9565
+none,gray_resize,image (3).jpeg,desire,desire,desire,1.0,1.0
+none,gray_resize,image (4).jpeg,amino,amino,among,1.0,0.6
+none,gray_resize,image (5).jpeg,gamma,gamma,mamma,1.0,0.8
+none,gray_resize,image (6).jpeg,genetic,genetic,genetic,1.0,1.0
+none,gray_resize,image (7).jpeg,plants,lants q,lands q,0.7692,0.6154
+none,gray_resize,image (8).jpeg,astounding,astounding,astounding,1.0,1.0
+none,gray_resize,image (9).jpeg,culture,culture,culture,1.0,1.0
+none,gray_resize,image (10).jpeg,nights,cigks,signs,0.5455,0.5455
+none,gray_resize,image (11).jpeg,predator,@edotoz,editor,0.5333,0.7143
+none,gray_resize,image (12).jpeg,universities,uni 1 %81fi-88,un 1 81fi 88,0.3077,0.25
+none,gray_resize,image (13).jpeg,students,students,students,1.0,1.0
+none,gray_resize,image (14).jpeg,organization,organi sati dh,organs sat do,0.6923,0.64
+none,gray_resize,image (15).jpeg,haircut,haacut,haacut,0.7692,0.7692
+none,gray_resize,image (16).jpeg,the writing's on the wall,thc kritiny's m me hall,the writing s m me hall,0.7083,0.7917
+none,blur,image (1).jpeg,racist,rest_,rest,0.5455,0.6
+none,blur,image (2).jpeg,implications,implications,implication,1.0,0.9565
+none,blur,image (3).jpeg,desire,desire,desire,1.0,1.0
+none,blur,image (4).jpeg,amino,amino,among,1.0,0.6
+none,blur,image (5).jpeg,gamma,gamma,mamma,1.0,0.8
+none,blur,image (6).jpeg,genetic,genetic,genetic,1.0,1.0
+none,blur,image (7).jpeg,plants,(plants,plants,0.9231,1.0
+none,blur,image (8).jpeg,astounding,astounding,astounding,1.0,1.0
+none,blur,image (9).jpeg,culture,culture,culture,1.0,1.0
+none,blur,image (10).jpeg,nights,cioh,with,0.4,0.4
+none,blur,image (11).jpeg,predator,@edotoe,editor,0.5333,0.7143
+none,blur,image (12).jpeg,universities,uni u%s1fi,un u s1fi,0.4545,0.381
+none,blur,image (13).jpeg,students,students,students,1.0,1.0
+none,blur,image (14).jpeg,organization,orqani satidh,organs said,0.64,0.6087
+none,blur,image (15).jpeg,haircut,iatc c4,it c,0.2857,0.3636
+none,blur,image (16).jpeg,the writing's on the wall,tnc kriting's m me wall,tic writing s m me wall,0.75,0.75
+none,threshold,image (1).jpeg,racist,rest,rest,0.6,0.6
+none,threshold,image (2).jpeg,implications,implications,implication,1.0,0.9565
+none,threshold,image (3).jpeg,desire,desire,desire,1.0,1.0
+none,threshold,image (4).jpeg,amino,amino,among,1.0,0.6
+none,threshold,image (5).jpeg,gamma,gamma,mamma,1.0,0.8
+none,threshold,image (6).jpeg,genetic,genetic,genetic,1.0,1.0
+none,threshold,image (7).jpeg,plants,(plants,plants,0.9231,1.0
+none,threshold,image (8).jpeg,astounding,astounding_,astounding,0.9524,1.0
+none,threshold,image (9).jpeg,culture,culture,culture,1.0,1.0
+none,threshold,image (10).jpeg,nights,eiohs,eight,0.5455,0.7273
+none,threshold,image (11).jpeg,predator,tedotoe,tedotoe,0.5333,0.5333
+none,threshold,image (12).jpeg,universities,uli 1 %81t1,uli 1 81t1,0.2609,0.2727
+none,threshold,image (13).jpeg,students,students,students,1.0,1.0
+none,threshold,image (14).jpeg,organization,oidri sati dh,oidri sat do,0.48,0.5
+none,threshold,image (15).jpeg,haircut,lcul,ll,0.3636,0.0
+none,threshold,image (16).jpeg,the writing's on the wall,tnc nriting's m me kall,tic writing s m me all,0.7083,0.7234
+none,adaptive,image (1).jpeg,racist,nleibh _,nleibh,0.1429,0.1667
+none,adaptive,image (2).jpeg,implications,plications,applications,0.9091,0.8333
+none,adaptive,image (3).jpeg,desire,'de sire:,de sire,0.8,0.9231
+none,adaptive,image (4).jpeg,amino,d1noz,donor,0.4,0.4
+none,adaptive,image (5).jpeg,gamma,gamma,mamma,1.0,0.8
+none,adaptive,image (6).jpeg,genetic,genetia,genetic,0.8571,1.0
+none,adaptive,image (7).jpeg,plants,louts,louis,0.5455,0.3636
+none,adaptive,image (8).jpeg,astounding,oiskos,risks,0.25,0.1333
+none,adaptive,image (9).jpeg,culture,cultune;,culture,0.8,1.0
+none,adaptive,image (10).jpeg,nights,liic_,like,0.1818,0.2
+none,adaptive,image (11).jpeg,predator,htedbzot_,htedbzot,0.3529,0.375
+none,adaptive,image (12).jpeg,universities,135 um,135 up,0.1111,0.1111
+none,adaptive,image (13).jpeg,students,studrnks,students,0.75,1.0
+none,adaptive,image (14).jpeg,organization,(izeli,izeli,0.3333,0.3529
+none,adaptive,image (15).jpeg,haircut,h,h,0.25,0.25
+none,adaptive,image (16).jpeg,the writing's on the wall,tkc mritirg's & me kail,tic writing s me nail,0.625,0.6522
+none,blur_threshold,image (1).jpeg,racist,reest,rest,0.5455,0.6
+none,blur_threshold,image (2).jpeg,implications,implications,implication,1.0,0.9565
+none,blur_threshold,image (3).jpeg,desire,desire,desire,1.0,1.0
+none,blur_threshold,image (4).jpeg,amino,amino,among,1.0,0.6
+none,blur_threshold,image (5).jpeg,gamma,gamma,mamma,1.0,0.8
+none,blur_threshold,image (6).jpeg,genetic,genetic,genetic,1.0,1.0
+none,blur_threshold,image (7).jpeg,plants,(ptants,plants,0.7692,1.0
+none,blur_threshold,image (8).jpeg,astounding,astounding _,astounding,0.9091,1.0
+none,blur_threshold,image (9).jpeg,culture,culture,culture,1.0,1.0
+none,blur_threshold,image (10).jpeg,nights,cfiaht,fight,0.5,0.7273
+none,blur_threshold,image (11).jpeg,predator,htc ltc,etc etc,0.1333,0.2667
+none,blur_threshold,image (12).jpeg,universities,uli 1 %81ti,uli 1 anti,0.3478,0.3636
+none,blur_threshold,image (13).jpeg,students,studen ts,student to,0.9412,0.7778
+none,blur_threshold,image (14).jpeg,organization,oqani sat7i dn,oqani sat in,0.6154,0.6667
+none,blur_threshold,image (15).jpeg,haircut,hcy,hay,0.4,0.4
+none,blur_threshold,image (16).jpeg,the writing's on the wall,thc kihrg's m me kall,the king s m me all,0.6087,0.6818
+rotate,gray,image (1).jpeg,racist,resl,rest,0.4,0.6
+rotate,gray,image (2).jpeg,implications,implications,implication,1.0,0.9565
+rotate,gray,image (3).jpeg,desire,desire,desire,1.0,1.0
+rotate,gray,image (4).jpeg,amino,amino,among,1.0,0.6
+rotate,gray,image (5).jpeg,gamma,gamma,mamma,1.0,0.8
+rotate,gray,image (6).jpeg,genetic,genetic,genetic,1.0,1.0
+rotate,gray,image (7).jpeg,plants,czlants,plants,0.7692,1.0
+rotate,gray,image (8).jpeg,astounding,astounding,astounding,1.0,1.0
+rotate,gray,image (9).jpeg,culture,culture,culture,1.0,1.0
+rotate,gray,image (10).jpeg,nights,cloky,close,0.0,0.1818
+rotate,gray,image (11).jpeg,predator,@uecotoo,uecotoo,0.375,0.4
+rotate,gray,image (12).jpeg,universities,uli u%if,uli u if,0.3,0.3
+rotate,gray,image (13).jpeg,students,students,students,1.0,1.0
+rotate,gray,image (14).jpeg,organization,orqani satid1,organs said,0.64,0.6087
+rotate,gray,image (15).jpeg,haircut,cut hatc,cut hat,0.4,0.4286
+rotate,gray,image (16).jpeg,the writing's on the wall,m mc th kriting's ball,m my th writing s ball,0.6383,0.6383
+rotate,resize,image (1).jpeg,racist,ree5h,reach,0.1818,0.5455
+rotate,resize,image (2).jpeg,implications,implications,implication,1.0,0.9565
+rotate,resize,image (3).jpeg,desire,desire,desire,1.0,1.0
+rotate,resize,image (4).jpeg,amino,amino,among,1.0,0.6
+rotate,resize,image (5).jpeg,gamma,gamma,mamma,1.0,0.8
+rotate,resize,image (6).jpeg,genetic,genetic,genetic,1.0,1.0
+rotate,resize,image (7).jpeg,plants,p lanks,p ranks,0.7692,0.6154
+rotate,resize,image (8).jpeg,astounding,aslounding,astounding,0.9,1.0
+rotate,resize,image (9).jpeg,culture,culture,culture,1.0,1.0
+rotate,resize,image (10).jpeg,nights,chohy,holy,0.1818,0.2
+rotate,resize,image (11).jpeg,predator,fceootoe,fceootoe,0.375,0.375
+rotate,resize,image (12).jpeg,universities,umi 1%3ikz,mi 1 like,0.2727,0.2857
+rotate,resize,image (13).jpeg,students,gtudenb,student,0.6667,0.9333
+rotate,resize,image (14).jpeg,organization,ordin sat 6l,ordin sat ll,0.4167,0.4167
+rotate,resize,image (15).jpeg,haircut,cut hasa,cut has,0.4,0.4286
+rotate,resize,image (16).jpeg,the writing's on the wall,m me wall tkc kiting's,m me wall tic biting s,0.4255,0.383
+rotate,gray_resize,image (1).jpeg,racist,reesh,rest,0.3636,0.6
+rotate,gray_resize,image (2).jpeg,implications,implications,implication,1.0,0.9565
+rotate,gray_resize,image (3).jpeg,desire,desire,desire,1.0,1.0
+rotate,gray_resize,image (4).jpeg,amino,amino,among,1.0,0.6
+rotate,gray_resize,image (5).jpeg,gamma,gamma,mamma,1.0,0.8
+rotate,gray_resize,image (6).jpeg,genetic,genetic,genetic,1.0,1.0
+rotate,gray_resize,image (7).jpeg,plants,(p lanks,p ranks,0.7143,0.6154
+rotate,gray_resize,image (8).jpeg,astounding,aslounding,astounding,0.9,1.0
+rotate,gray_resize,image (9).jpeg,culture,culture,culture,1.0,1.0
+rotate,gray_resize,image (10).jpeg,nights,niok,nook,0.4,0.2
+rotate,gray_resize,image (11).jpeg,predator,@edotot,editor,0.5333,0.7143
+rotate,gray_resize,image (12).jpeg,universities,u23if1,u23if1,0.2222,0.2222
+rotate,gray_resize,image (13).jpeg,students,students,students,1.0,1.0
+rotate,gray_resize,image (14).jpeg,organization,ordani satioh,ordani nation,0.72,0.8
+rotate,gray_resize,image (15).jpeg,haircut,hafc cut,had cut,0.6667,0.7143
+rotate,gray_resize,image (16).jpeg,the writing's on the wall,0 mc tnc kriting's wall,0 my tic writing s wall,0.625,0.625
+rotate,blur,image (1).jpeg,racist,reesh,rest,0.3636,0.6
+rotate,blur,image (2).jpeg,implications,implications,implication,1.0,0.9565
+rotate,blur,image (3).jpeg,desire,desire,desire,1.0,1.0
+rotate,blur,image (4).jpeg,amino,amino,among,1.0,0.6
+rotate,blur,image (5).jpeg,gamma,gamma,mamma,1.0,0.8
+rotate,blur,image (6).jpeg,genetic,genetic,genetic,1.0,1.0
+rotate,blur,image (7).jpeg,plants,(plants,plants,0.9231,1.0
+rotate,blur,image (8).jpeg,astounding,aslounding,astounding,0.9,1.0
+rotate,blur,image (9).jpeg,culture,culture,culture,1.0,1.0
+rotate,blur,image (10).jpeg,nights,clght,right,0.5455,0.7273
+rotate,blur,image (11).jpeg,predator,@edotoe,editor,0.5333,0.7143
+rotate,blur,image (12).jpeg,universities,^ u%s1f1,u soft,0.2,0.3333
+rotate,blur,image (13).jpeg,students,studen,student,0.8571,0.9333
+rotate,blur,image (14).jpeg,organization,rdani satidn,ran satin,0.6667,0.6667
+rotate,blur,image (15).jpeg,haircut,iafc cu,if cut,0.4286,0.6154
+rotate,blur,image (16).jpeg,the writing's on the wall,m wall vc kiting's me,m wall ve biting s me,0.4783,0.4348
+rotate,threshold,image (1).jpeg,racist,rest,rest,0.6,0.6
+rotate,threshold,image (2).jpeg,implications,implications,implication,1.0,0.9565
+rotate,threshold,image (3).jpeg,desire,desire,desire,1.0,1.0
+rotate,threshold,image (4).jpeg,amino,amino,among,1.0,0.6
+rotate,threshold,image (5).jpeg,gamma,gamma,mamma,1.0,0.8
+rotate,threshold,image (6).jpeg,genetic,genetic,genetic,1.0,1.0
+rotate,threshold,image (7).jpeg,plants,(plants,plants,0.9231,1.0
+rotate,threshold,image (8).jpeg,astounding,aslounding,astounding,0.9,1.0
+rotate,threshold,image (9).jpeg,culture,culture,culture,1.0,1.0
+rotate,threshold,image (10).jpeg,nights,~okt,out,0.2,0.2222
+rotate,threshold,image (11).jpeg,predator,htedloto:,htedloto,0.4706,0.5
+rotate,threshold,image (12).jpeg,universities,uml %s1t1,uml sat,0.2857,0.3158
+rotate,threshold,image (13).jpeg,students,students,students,1.0,1.0
+rotate,threshold,image (14).jpeg,organization,o1qur satib1,our satin,0.4167,0.5714
+rotate,threshold,image (15).jpeg,haircut,cuk hasc,cut has,0.4,0.4286
+rotate,threshold,image (16).jpeg,the writing's on the wall,e^ me mnc witng's wal,e me mac wing s was,0.5652,0.4545
+rotate,adaptive,image (1).jpeg,racist,1qioe,1qioe,0.1818,0.1818
+rotate,adaptive,image (2).jpeg,implications,implications,implication,1.0,0.9565
+rotate,adaptive,image (3).jpeg,desire,desire,desire,1.0,1.0
+rotate,adaptive,image (4).jpeg,amino,mino,mind,0.8889,0.6667
+rotate,adaptive,image (5).jpeg,gamma,gamm,game,0.8889,0.6667
+rotate,adaptive,image (6).jpeg,genetic,genetict,genetic,0.9333,1.0
+rotate,adaptive,image (7).jpeg,plants,,,0.0,0.0
+rotate,adaptive,image (8).jpeg,astounding,distounding,astounding,0.8571,1.0
+rotate,adaptive,image (9).jpeg,culture,cultue,culture,0.9231,1.0
+rotate,adaptive,image (10).jpeg,nights,,,0.0,0.0
+rotate,adaptive,image (11).jpeg,predator,~pbedotouz,pbedotouz,0.5556,0.5882
+rotate,adaptive,image (12).jpeg,universities,1311,1311,0.0,0.0
+rotate,adaptive,image (13).jpeg,students,studxz,study,0.5714,0.6154
+rotate,adaptive,image (14).jpeg,organization,(c selie,c selie,0.1,0.1053
+rotate,adaptive,image (15).jpeg,haircut,,,0.0,0.0
+rotate,adaptive,image (16).jpeg,the writing's on the wall,"thc , m me kall kriting's",the m me all writing s,0.48,0.5106
+rotate,blur_threshold,image (1).jpeg,racist,rebt,rest,0.4,0.6
+rotate,blur_threshold,image (2).jpeg,implications,implications,implication,1.0,0.9565
+rotate,blur_threshold,image (3).jpeg,desire,de = sire,de sire,0.8,0.9231
+rotate,blur_threshold,image (4).jpeg,amino,amino,among,1.0,0.6
+rotate,blur_threshold,image (5).jpeg,gamma,gamma,mamma,1.0,0.8
+rotate,blur_threshold,image (6).jpeg,genetic,genetic _,genetic,0.875,1.0
+rotate,blur_threshold,image (7).jpeg,plants,(plants,plants,0.9231,1.0
+rotate,blur_threshold,image (8).jpeg,astounding,aslounding,astounding,0.9,1.0
+rotate,blur_threshold,image (9).jpeg,culture,cultuxe,culture,0.8571,1.0
+rotate,blur_threshold,image (10).jpeg,nights,,,0.0,0.0
+rotate,blur_threshold,image (11).jpeg,predator,mr lk,mr ll,0.1538,0.1538
+rotate,blur_threshold,image (12).jpeg,universities,umlu %s1fi,umlu s1fi,0.2727,0.2857
+rotate,blur_threshold,image (13).jpeg,students,ts studen _,to student,0.6316,0.7778
+rotate,blur_threshold,image (14).jpeg,organization,otqunr sati d1,otqunr sat do,0.3846,0.4
+rotate,blur_threshold,image (15).jpeg,haircut,bacs cut,back cut,0.5333,0.5333
+rotate,blur_threshold,image (16).jpeg,the writing's on the wall,thc kiting's me wall,the biting s me wall,0.7556,0.7556
+noise,gray,image (1).jpeg,racist,rest,rest,0.6,0.6
+noise,gray,image (2).jpeg,implications,implications,implication,1.0,0.9565
+noise,gray,image (3).jpeg,desire,desire,desire,1.0,1.0
+noise,gray,image (4).jpeg,amino,amino,among,1.0,0.6
+noise,gray,image (5).jpeg,gamma,gamma,mamma,1.0,0.8
+noise,gray,image (6).jpeg,genetic,genetic,genetic,1.0,1.0
+noise,gray,image (7).jpeg,plants,@lants,lands,0.8333,0.7273
+noise,gray,image (8).jpeg,astounding,astounding,astounding,1.0,1.0
+noise,gray,image (9).jpeg,culture,culture,culture,1.0,1.0
+noise,gray,image (10).jpeg,nights,cighs,sighs,0.7273,0.7273
+noise,gray,image (11).jpeg,predator,@edotoe,editor,0.5333,0.7143
+noise,gray,image (12).jpeg,universities,uni u %3it1,un u it,0.4348,0.4211
+noise,gray,image (13).jpeg,students,students,students,1.0,1.0
+noise,gray,image (14).jpeg,organization,orduni sati dh,orduni sat do,0.5385,0.56
+noise,gray,image (15).jpeg,haircut,"h,c4",h c,0.3636,0.4
+noise,gray,image (16).jpeg,the writing's on the wall,tnc nitrg's m me wall,tic intra s m me wall,0.6522,0.5652
+noise,resize,image (1).jpeg,racist,ret,met,0.4444,0.2222
+noise,resize,image (2).jpeg,implications,implications,implication,1.0,0.9565
+noise,resize,image (3).jpeg,desire,desire,desire,1.0,1.0
+noise,resize,image (4).jpeg,amino,amino,among,1.0,0.6
+noise,resize,image (5).jpeg,gamma,gamma,mamma,1.0,0.8
+noise,resize,image (6).jpeg,genetic,genetic,genetic,1.0,1.0
+noise,resize,image (7).jpeg,plants,lants (22,lands 22,0.6667,0.5714
+noise,resize,image (8).jpeg,astounding,astounding,astounding,1.0,1.0
+noise,resize,image (9).jpeg,culture,culture,culture,1.0,1.0
+noise,resize,image (10).jpeg,nights,ciohs,cross,0.5455,0.1818
+noise,resize,image (11).jpeg,predator,@cedotoz,cedotoz,0.5,0.5333
+noise,resize,image (12).jpeg,universities,uni 1 %81t1 e,un 1 81t1 e,0.4,0.3478
+noise,resize,image (13).jpeg,students,students,students,1.0,1.0
+noise,resize,image (14).jpeg,organization,orqani sati dh,organs sat do,0.6154,0.64
+noise,resize,image (15).jpeg,haircut,barc4t,barc4t,0.6154,0.6154
+noise,resize,image (16).jpeg,the writing's on the wall,thc kihing's m me hall,the thing s m me hall,0.6809,0.6957
+noise,gray_resize,image (1).jpeg,racist,ree5t,rest,0.3636,0.6
+noise,gray_resize,image (2).jpeg,implications,implications,implication,1.0,0.9565
+noise,gray_resize,image (3).jpeg,desire,desire,desire,1.0,1.0
+noise,gray_resize,image (4).jpeg,amino,amino,among,1.0,0.6
+noise,gray_resize,image (5).jpeg,gamma,gamma,mamma,1.0,0.8
+noise,gray_resize,image (6).jpeg,genetic,genetic,genetic,1.0,1.0
+noise,gray_resize,image (7).jpeg,plants,lants q,lands q,0.7692,0.6154
+noise,gray_resize,image (8).jpeg,astounding,astounding,astounding,1.0,1.0
+noise,gray_resize,image (9).jpeg,culture,culture,culture,1.0,1.0
+noise,gray_resize,image (10).jpeg,nights,ciohs,cross,0.5455,0.1818
+noise,gray_resize,image (11).jpeg,predator,@edotot,editor,0.5333,0.7143
+noise,gray_resize,image (12).jpeg,universities,0 %1t & uml,0 it uml,0.087,0.2
+noise,gray_resize,image (13).jpeg,students,students,students,1.0,1.0
+noise,gray_resize,image (14).jpeg,organization,orguni sati dh,organs sat do,0.6154,0.64
+noise,gray_resize,image (15).jpeg,haircut,hafa cut,hafa cut,0.6667,0.6667
+noise,gray_resize,image (16).jpeg,the writing's on the wall,thc kihny's m me wall,the king s m me wall,0.6522,0.7111
+noise,blur,image (1).jpeg,racist,rebt,rest,0.4,0.6
+noise,blur,image (2).jpeg,implications,implications,implication,1.0,0.9565
+noise,blur,image (3).jpeg,desire,de sire,de sire,0.9231,0.9231
+noise,blur,image (4).jpeg,amino,amino,among,1.0,0.6
+noise,blur,image (5).jpeg,gamma,gamma,mamma,1.0,0.8
+noise,blur,image (6).jpeg,genetic,genetic,genetic,1.0,1.0
+noise,blur,image (7).jpeg,plants,clants,plants,0.8333,1.0
+noise,blur,image (8).jpeg,astounding,astounding,astounding,1.0,1.0
+noise,blur,image (9).jpeg,culture,culture,culture,1.0,1.0
+noise,blur,image (10).jpeg,nights,cohs,cows,0.4,0.2
+noise,blur,image (11).jpeg,predator,@edotoe,editor,0.5333,0.7143
+noise,blur,image (12).jpeg,universities,uni u %sif1,un u if,0.4348,0.3158
+noise,blur,image (13).jpeg,students,students,students,1.0,1.0
+noise,blur,image (14).jpeg,organization,orguni satidh,organs said,0.64,0.6087
+noise,blur,image (15).jpeg,haircut,iafc c4t,if cut,0.4,0.6154
+noise,blur,image (16).jpeg,the writing's on the wall,tnc kriting's m me wall,tic writing s m me wall,0.75,0.75
+noise,threshold,image (1).jpeg,racist,rest,rest,0.6,0.6
+noise,threshold,image (2).jpeg,implications,implications,implication,1.0,0.9565
+noise,threshold,image (3).jpeg,desire,desire,desire,1.0,1.0
+noise,threshold,image (4).jpeg,amino,amino,among,1.0,0.6
+noise,threshold,image (5).jpeg,gamma,gamma,mamma,1.0,0.8
+noise,threshold,image (6).jpeg,genetic,genetic,genetic,1.0,1.0
+noise,threshold,image (7).jpeg,plants,cplants,plants,0.9231,1.0
+noise,threshold,image (8).jpeg,astounding,astounding,astounding,1.0,1.0
+noise,threshold,image (9).jpeg,culture,culture,culture,1.0,1.0
+noise,threshold,image (10).jpeg,nights,~fight,fight,0.6667,0.7273
+noise,threshold,image (11).jpeg,predator,plsm,plum,0.1667,0.1667
+noise,threshold,image (12).jpeg,universities,ull 1 %3if1,all 1 if,0.1739,0.1
+noise,threshold,image (13).jpeg,students,studen ts,student to,0.9412,0.7778
+noise,threshold,image (14).jpeg,organization,o1dutr sati dv;,o1dutr sat do,0.3704,0.4
+noise,threshold,image (15).jpeg,haircut,btcy,by,0.1818,0.0
+noise,threshold,image (16).jpeg,the writing's on the wall,thc nitirg's m me wall,the uniting s m me wall,0.7234,0.75
+noise,adaptive,image (1).jpeg,racist,reesl,rest,0.3636,0.6
+noise,adaptive,image (2).jpeg,implications,mi plications,mi applications,0.88,0.8148
+noise,adaptive,image (3).jpeg,desire,desire,desire,1.0,1.0
+noise,adaptive,image (4).jpeg,amino,mio,mio,0.75,0.75
+noise,adaptive,image (5).jpeg,gamma,gamma,mamma,1.0,0.8
+noise,adaptive,image (6).jpeg,genetic,genene,helene,0.6154,0.4615
+noise,adaptive,image (7).jpeg,plants,splanis,plans,0.7692,0.9091
+noise,adaptive,image (8).jpeg,astounding,oskounding,astounding,0.8,1.0
+noise,adaptive,image (9).jpeg,culture,ciliue,clue,0.6154,0.7273
+noise,adaptive,image (10).jpeg,nights,dit,it,0.4444,0.5
+noise,adaptive,image (11).jpeg,predator,pteditoo,pteditoo,0.625,0.625
+noise,adaptive,image (12).jpeg,universities,uliil %81fu,until 81fu,0.2609,0.3636
+noise,adaptive,image (13).jpeg,students,gtudkea} s,gtudkea s,0.5556,0.5882
+noise,adaptive,image (14).jpeg,organization,okddaseti 6l,okddaseti ll,0.3333,0.3333
+noise,adaptive,image (15).jpeg,haircut,lu,ll,0.2222,0.0
+noise,adaptive,image (16).jpeg,the writing's on the wall,thc kihng's m me ball,the king s m me ball,0.6522,0.6667
+noise,blur_threshold,image (1).jpeg,racist,rest,rest,0.6,0.6
+noise,blur_threshold,image (2).jpeg,implications,implications,implication,1.0,0.9565
+noise,blur_threshold,image (3).jpeg,desire,de sire,de sire,0.9231,0.9231
+noise,blur_threshold,image (4).jpeg,amino,amino,among,1.0,0.6
+noise,blur_threshold,image (5).jpeg,gamma,gamma,mamma,1.0,0.8
+noise,blur_threshold,image (6).jpeg,genetic,genetic,genetic,1.0,1.0
+noise,blur_threshold,image (7).jpeg,plants,cplants,plants,0.9231,1.0
+noise,blur_threshold,image (8).jpeg,astounding,astounding,astounding,1.0,1.0
+noise,blur_threshold,image (9).jpeg,culture,culture,culture,1.0,1.0
+noise,blur_threshold,image (10).jpeg,nights,,,0.0,0.0
+noise,blur_threshold,image (11).jpeg,predator,,,0.0,0.0
+noise,blur_threshold,image (12).jpeg,universities,uli 1 %5ifi,uli 1 if,0.3478,0.3
+noise,blur_threshold,image (13).jpeg,students,studen }5,student 5,0.7059,0.8235
+noise,blur_threshold,image (14).jpeg,organization,jqdni satic ;,jqdni satin,0.4,0.5217
+noise,blur_threshold,image (15).jpeg,haircut,hrc4t,hrc4t,0.6667,0.6667
+noise,blur_threshold,image (16).jpeg,the writing's on the wall,thc nriting's m mc wall,the writing s m my wall,0.75,0.7917
+scale,gray,image (1).jpeg,racist,rest,rest,0.6,0.6
+scale,gray,image (2).jpeg,implications,implications,implication,1.0,0.9565
+scale,gray,image (3).jpeg,desire,desire,desire,1.0,1.0
+scale,gray,image (4).jpeg,amino,amino,among,1.0,0.6
+scale,gray,image (5).jpeg,gamma,gamma,mamma,1.0,0.8
+scale,gray,image (6).jpeg,genetic,genetic,genetic,1.0,1.0
+scale,gray,image (7).jpeg,plants,(elants,plants,0.7692,1.0
+scale,gray,image (8).jpeg,astounding,astounding,astounding,1.0,1.0
+scale,gray,image (9).jpeg,culture,culture,culture,1.0,1.0
+scale,gray,image (10).jpeg,nights,cioh:,with,0.3636,0.4
+scale,gray,image (11).jpeg,predator,@edotoz,editor,0.5333,0.7143
+scale,gray,image (12).jpeg,universities,uni 1 %81f,un 1 of,0.2727,0.2105
+scale,gray,image (13).jpeg,students,students,students,1.0,1.0
+scale,gray,image (14).jpeg,organization,organi sati dh,organs sat do,0.6923,0.64
+scale,gray,image (15).jpeg,haircut,haacut,haacut,0.7692,0.7692
+scale,gray,image (16).jpeg,the writing's on the wall,tnc kiting's m me hall,tic biting s m me hall,0.6809,0.6383
+scale,resize,image (1).jpeg,racist,res_,yes,0.4,0.2222
+scale,resize,image (2).jpeg,implications,implications,implication,1.0,0.9565
+scale,resize,image (3).jpeg,desire,desire,desire,1.0,1.0
+scale,resize,image (4).jpeg,amino,amino,among,1.0,0.6
+scale,resize,image (5).jpeg,gamma,gamma,mamma,1.0,0.8
+scale,resize,image (6).jpeg,genetic,genetic,genetic,1.0,1.0
+scale,resize,image (7).jpeg,plants,cplants,plants,0.9231,1.0
+scale,resize,image (8).jpeg,astounding,astoun ding,stout king,0.9524,0.7
+scale,resize,image (9).jpeg,culture,culture,culture,1.0,1.0
+scale,resize,image (10).jpeg,nights,ciohs,cross,0.5455,0.1818
+scale,resize,image (11).jpeg,predator,mredotoz,mredotoz,0.625,0.625
+scale,resize,image (12).jpeg,universities,uni u%31t l83,un u it let,0.32,0.4348
+scale,resize,image (13).jpeg,students,students,students,1.0,1.0
+scale,resize,image (14).jpeg,organization,organi sati dh,organs sat do,0.6923,0.64
+scale,resize,image (15).jpeg,haircut,iafc c4t,if cut,0.4,0.6154
+scale,resize,image (16).jpeg,the writing's on the wall,thc kihny's m me wall,the king s m me wall,0.6522,0.7111
+scale,gray_resize,image (1).jpeg,racist,rest,rest,0.6,0.6
+scale,gray_resize,image (2).jpeg,implications,implications,implication,1.0,0.9565
+scale,gray_resize,image (3).jpeg,desire,desire,desire,1.0,1.0
+scale,gray_resize,image (4).jpeg,amino,amino,among,1.0,0.6
+scale,gray_resize,image (5).jpeg,gamma,gamma,mamma,1.0,0.8
+scale,gray_resize,image (6).jpeg,genetic,genetic,genetic,1.0,1.0
+scale,gray_resize,image (7).jpeg,plants,zplants,plants,0.9231,1.0
+scale,gray_resize,image (8).jpeg,astounding,astounding,astounding,1.0,1.0
+scale,gray_resize,image (9).jpeg,culture,culture,culture,1.0,1.0
+scale,gray_resize,image (10).jpeg,nights,ciohs,cross,0.5455,0.1818
+scale,gray_resize,image (11).jpeg,predator,@edotoz,editor,0.5333,0.7143
+scale,gray_resize,image (12).jpeg,universities,umi u %31fi l83,mi u 31fi let,0.2222,0.32
+scale,gray_resize,image (13).jpeg,students,students,students,1.0,1.0
+scale,gray_resize,image (14).jpeg,organization,orquni satidh,orquni said,0.56,0.5217
+scale,gray_resize,image (15).jpeg,haircut,hcut,cut,0.7273,0.6
+scale,gray_resize,image (16).jpeg,the writing's on the wall,tnc kihny's m me wall,tic king s m me wall,0.6087,0.6222
+scale,blur,image (1).jpeg,racist,ree5t,rest,0.3636,0.6
+scale,blur,image (2).jpeg,implications,implications,implication,1.0,0.9565
+scale,blur,image (3).jpeg,desire,desire,desire,1.0,1.0
+scale,blur,image (4).jpeg,amino,amino,among,1.0,0.6
+scale,blur,image (5).jpeg,gamma,gamma,mamma,1.0,0.8
+scale,blur,image (6).jpeg,genetic,genetic,genetic,1.0,1.0
+scale,blur,image (7).jpeg,plants,(elants,plants,0.7692,1.0
+scale,blur,image (8).jpeg,astounding,astounding,astounding,1.0,1.0
+scale,blur,image (9).jpeg,culture,culture,culture,1.0,1.0
+scale,blur,image (10).jpeg,nights,cioht,right,0.5455,0.7273
+scale,blur,image (11).jpeg,predator,@edotor,editor,0.6667,0.7143
+scale,blur,image (12).jpeg,universities,uni u %sif1,un u if,0.4348,0.3158
+scale,blur,image (13).jpeg,students,students,students,1.0,1.0
+scale,blur,image (14).jpeg,organization,organi sati bh,organs sat by,0.6923,0.56
+scale,blur,image (15).jpeg,haircut,hatcut,hatcut,0.7692,0.7692
+scale,blur,image (16).jpeg,the writing's on the wall,tnc nriting's m me kall,tic writing s m me all,0.7083,0.7234
+scale,threshold,image (1).jpeg,racist,reast,rest,0.7273,0.6
+scale,threshold,image (2).jpeg,implications,implications,implication,1.0,0.9565
+scale,threshold,image (3).jpeg,desire,desire,desire,1.0,1.0
+scale,threshold,image (4).jpeg,amino,amino,among,1.0,0.6
+scale,threshold,image (5).jpeg,gamma,gamma,mamma,1.0,0.8
+scale,threshold,image (6).jpeg,genetic,~genetic,genetic,0.9333,1.0
+scale,threshold,image (7).jpeg,plants,(plantsi,plants,0.8571,1.0
+scale,threshold,image (8).jpeg,astounding,astounding_,astounding,0.9524,1.0
+scale,threshold,image (9).jpeg,culture,culture,culture,1.0,1.0
+scale,threshold,image (10).jpeg,nights,cighs,sighs,0.7273,0.7273
+scale,threshold,image (11).jpeg,predator,htedato:,htedato,0.625,0.6667
+scale,threshold,image (12).jpeg,universities,uml1%3if1,uml1 if,0.1905,0.2105
+scale,threshold,image (13).jpeg,students,studen ts,student to,0.9412,0.7778
+scale,threshold,image (14).jpeg,organization,otqoni satidh,otqoni said,0.48,0.4348
+scale,threshold,image (15).jpeg,haircut,iafc cut,if cut,0.5333,0.6154
+scale,threshold,image (16).jpeg,the writing's on the wall,thc kritrg's m me kall,the kritrg s m me all,0.6809,0.6957
+scale,adaptive,image (1).jpeg,racist,,,0.0,0.0
+scale,adaptive,image (2).jpeg,implications,im plications,in applications,0.96,0.8148
+scale,adaptive,image (3).jpeg,desire,de; sire,de sire,0.8571,0.9231
+scale,adaptive,image (4).jpeg,amino,lamio,laid,0.8,0.4444
+scale,adaptive,image (5).jpeg,gamma,gamma,mamma,1.0,0.8
+scale,adaptive,image (6).jpeg,genetic,genenc,geneva,0.7692,0.6154
+scale,adaptive,image (7).jpeg,plants,,,0.0,0.0
+scale,adaptive,image (8).jpeg,astounding,,,0.0,0.0
+scale,adaptive,image (9).jpeg,culture,yo,to,0.0,0.2222
+scale,adaptive,image (10).jpeg,nights,"""""c%olx",c old,0.0,0.0
+scale,adaptive,image (11).jpeg,predator,asedbtouz,asedbtouz,0.4706,0.4706
+scale,adaptive,image (12).jpeg,universities,1(,1,0.0,0.0
+scale,adaptive,image (13).jpeg,students,als:,as,0.1667,0.2
+scale,adaptive,image (14).jpeg,organization,cuizal7,cuizal7,0.3158,0.3158
+scale,adaptive,image (15).jpeg,haircut,,,0.0,0.0
+scale,adaptive,image (16).jpeg,the writing's on the wall,the krrihng's m me ball,the krrihng s m me ball,0.7083,0.6667
+scale,blur_threshold,image (1).jpeg,racist,rest,rest,0.6,0.6
+scale,blur_threshold,image (2).jpeg,implications,implications,implication,1.0,0.9565
+scale,blur_threshold,image (3).jpeg,desire,desire,desire,1.0,1.0
+scale,blur_threshold,image (4).jpeg,amino,amino,among,1.0,0.6
+scale,blur_threshold,image (5).jpeg,gamma,gamma,mamma,1.0,0.8
+scale,blur_threshold,image (6).jpeg,genetic,genetic,genetic,1.0,1.0
+scale,blur_threshold,image (7).jpeg,plants,(plantsi,plants,0.8571,1.0
+scale,blur_threshold,image (8).jpeg,astounding,astounding,astounding,1.0,1.0
+scale,blur_threshold,image (9).jpeg,culture,culture,culture,1.0,1.0
+scale,blur_threshold,image (10).jpeg,nights,~mahs,mass,0.3636,0.2
+scale,blur_threshold,image (11).jpeg,predator,hcc talc:,he talk,0.1176,0.2667
+scale,blur_threshold,image (12).jpeg,universities,ull 1 231,all 1 231,0.0952,0.0
+scale,blur_threshold,image (13).jpeg,students,studen ts,student to,0.9412,0.7778
+scale,blur_threshold,image (14).jpeg,organization,otqani satid1,otqani said,0.56,0.5217
+scale,blur_threshold,image (15).jpeg,haircut,ltcut,cut,0.5,0.6
+scale,blur_threshold,image (16).jpeg,the writing's on the wall,thc kihng's m me kall,the king s m me all,0.6522,0.6818
+rotate_noise,gray,image (1).jpeg,racist,rpebh,rpebh,0.1818,0.1818
+rotate_noise,gray,image (2).jpeg,implications,implications,implication,1.0,0.9565
+rotate_noise,gray,image (3).jpeg,desire,desire,desire,1.0,1.0
+rotate_noise,gray,image (4).jpeg,amino,amino,among,1.0,0.6
+rotate_noise,gray,image (5).jpeg,gamma,gamma,mamma,1.0,0.8
+rotate_noise,gray,image (6).jpeg,genetic,genetic,genetic,1.0,1.0
+rotate_noise,gray,image (7).jpeg,plants,plants,plants,1.0,1.0
+rotate_noise,gray,image (8).jpeg,astounding,aslounding,astounding,0.9,1.0
+rotate_noise,gray,image (9).jpeg,culture,culture,culture,1.0,1.0
+rotate_noise,gray,image (10).jpeg,nights,cgks,asks,0.4,0.2
+rotate_noise,gray,image (11).jpeg,predator,~edotou,editor,0.5333,0.7143
+rotate_noise,gray,image (12).jpeg,universities,ml u%s1f,my u of,0.2,0.1053
+rotate_noise,gray,image (13).jpeg,students,studen,student,0.8571,0.9333
+rotate_noise,gray,image (14).jpeg,organization,sation donl,nation don,0.4348,0.5455
+rotate_noise,gray,image (15).jpeg,haircut,iasc cu,was cut,0.4286,0.5714
+rotate_noise,gray,image (16).jpeg,the writing's on the wall,m wall vkc kriting's me,m wall ve writing s me,0.5,0.5106
+rotate_noise,resize,image (1).jpeg,racist,res1,rest,0.4,0.6
+rotate_noise,resize,image (2).jpeg,implications,implications,implication,1.0,0.9565
+rotate_noise,resize,image (3).jpeg,desire,desire,desire,1.0,1.0
+rotate_noise,resize,image (4).jpeg,amino,amino,among,1.0,0.6
+rotate_noise,resize,image (5).jpeg,gamma,gamma,mamma,1.0,0.8
+rotate_noise,resize,image (6).jpeg,genetic,genetic,genetic,1.0,1.0
+rotate_noise,resize,image (7).jpeg,plants,c22 lamts,can lasts,0.5333,0.5333
+rotate_noise,resize,image (8).jpeg,astounding,astounding,astounding,1.0,1.0
+rotate_noise,resize,image (9).jpeg,culture,culture,culture,1.0,1.0
+rotate_noise,resize,image (10).jpeg,nights,cight,right,0.7273,0.7273
+rotate_noise,resize,image (11).jpeg,predator,fceclotoe,fceclotoe,0.3529,0.3529
+rotate_noise,resize,image (12).jpeg,universities,u 28ifi,u 28ifi,0.3158,0.3158
+rotate_noise,resize,image (13).jpeg,students,studenk,student,0.8,0.9333
+rotate_noise,resize,image (14).jpeg,organization,orduni sati &l,orduni sat l,0.5385,0.5
+rotate_noise,resize,image (15).jpeg,haircut,hacul,haul,0.6667,0.5455
+rotate_noise,resize,image (16).jpeg,the writing's on the wall,e^ me hkc wan witing's,e me he wan witing s,0.4255,0.4444
+rotate_noise,gray_resize,image (1).jpeg,racist,ree5h,reach,0.1818,0.5455
+rotate_noise,gray_resize,image (2).jpeg,implications,implications,implication,1.0,0.9565
+rotate_noise,gray_resize,image (3).jpeg,desire,sire de,sire de,0.6154,0.6154
+rotate_noise,gray_resize,image (4).jpeg,amino,amino,among,1.0,0.6
+rotate_noise,gray_resize,image (5).jpeg,gamma,gamma,mamma,1.0,0.8
+rotate_noise,gray_resize,image (6).jpeg,genetic,genetic,genetic,1.0,1.0
+rotate_noise,gray_resize,image (7).jpeg,plants,clants,plants,0.8333,1.0
+rotate_noise,gray_resize,image (8).jpeg,astounding,astounding,astounding,1.0,1.0
+rotate_noise,gray_resize,image (9).jpeg,culture,culture,culture,1.0,1.0
+rotate_noise,gray_resize,image (10).jpeg,nights,choht,short,0.3636,0.3636
+rotate_noise,gray_resize,image (11).jpeg,predator,fedtotot,fedtotot,0.5,0.5
+rotate_noise,gray_resize,image (12).jpeg,universities,"u281t,",u281t,0.2222,0.2353
+rotate_noise,gray_resize,image (13).jpeg,students,studenrs,students,0.875,1.0
+rotate_noise,gray_resize,image (14).jpeg,organization,ordani sati oa,ordani sat of,0.6923,0.64
+rotate_noise,gray_resize,image (15).jpeg,haircut,c4t hafe,cut have,0.2667,0.4
+rotate_noise,gray_resize,image (16).jpeg,the writing's on the wall,thc m me wall kiting's,the m me wall biting s,0.5106,0.4681
+rotate_noise,blur,image (1).jpeg,racist,reesh,rest,0.3636,0.6
+rotate_noise,blur,image (2).jpeg,implications,implications,implication,1.0,0.9565
+rotate_noise,blur,image (3).jpeg,desire,de sire,de sire,0.9231,0.9231
+rotate_noise,blur,image (4).jpeg,amino,amino,among,1.0,0.6
+rotate_noise,blur,image (5).jpeg,gamma,gamma,mamma,1.0,0.8
+rotate_noise,blur,image (6).jpeg,genetic,genetic,genetic,1.0,1.0
+rotate_noise,blur,image (7).jpeg,plants,clants',plants,0.7692,1.0
+rotate_noise,blur,image (8).jpeg,astounding,astounding,astounding,1.0,1.0
+rotate_noise,blur,image (9).jpeg,culture,culture,culture,1.0,1.0
+rotate_noise,blur,image (10).jpeg,nights,cltgk,clock,0.1818,0.0
+rotate_noise,blur,image (11).jpeg,predator,mredozoe,mredozoe,0.5,0.5
+rotate_noise,blur,image (12).jpeg,universities,umi u%sifu,mi u situ,0.3636,0.381
+rotate_noise,blur,image (13).jpeg,students,studenrs,students,0.875,1.0
+rotate_noise,blur,image (14).jpeg,organization,orqan_ satibl,organ still,0.56,0.6087
+rotate_noise,blur,image (15).jpeg,haircut,hasc cul,has cut,0.5333,0.7143
+rotate_noise,blur,image (16).jpeg,the writing's on the wall,m wall kc kriting's me,m wall c writing s me,0.5106,0.4783
+rotate_noise,threshold,image (1).jpeg,racist,re5},red,0.2,0.2222
+rotate_noise,threshold,image (2).jpeg,implications,implications,implication,1.0,0.9565
+rotate_noise,threshold,image (3).jpeg,desire,de sire,de sire,0.9231,0.9231
+rotate_noise,threshold,image (4).jpeg,amino,amino,among,1.0,0.6
+rotate_noise,threshold,image (5).jpeg,gamma,gamma,mamma,1.0,0.8
+rotate_noise,threshold,image (6).jpeg,genetic,genetic,genetic,1.0,1.0
+rotate_noise,threshold,image (7).jpeg,plants,plants,plants,1.0,1.0
+rotate_noise,threshold,image (8).jpeg,astounding,astounding,astounding,1.0,1.0
+rotate_noise,threshold,image (9).jpeg,culture,culture,culture,1.0,1.0
+rotate_noise,threshold,image (10).jpeg,nights,c rkt,c rat,0.1818,0.1818
+rotate_noise,threshold,image (11).jpeg,predator,60 2,60 2,0.0,0.0
+rotate_noise,threshold,image (12).jpeg,universities,ule u %sit6,use u sit,0.4348,0.4762
+rotate_noise,threshold,image (13).jpeg,students,xs studen _,is student,0.6316,0.7778
+rotate_noise,threshold,image (14).jpeg,organization,oiqunt sati dl,oiqunt sat do,0.3846,0.4
+rotate_noise,threshold,image (15).jpeg,haircut,ltcy,lucy,0.1818,0.1818
+rotate_noise,threshold,image (16).jpeg,the writing's on the wall,6^ mc mnc witng's wa,6 my mac wing s wa,0.4889,0.4186
+rotate_noise,adaptive,image (1).jpeg,racist,eesh,mesh,0.2,0.2
+rotate_noise,adaptive,image (2).jpeg,implications,implications,implication,1.0,0.9565
+rotate_noise,adaptive,image (3).jpeg,desire,de sire,de sire,0.9231,0.9231
+rotate_noise,adaptive,image (4).jpeg,amino,amino,among,1.0,0.6
+rotate_noise,adaptive,image (5).jpeg,gamma,9 amma,9 mamma,0.7273,0.6667
+rotate_noise,adaptive,image (6).jpeg,genetic,~genenc,geneva,0.7143,0.6154
+rotate_noise,adaptive,image (7).jpeg,plants,dlamnis,dlamnis,0.6154,0.6154
+rotate_noise,adaptive,image (8).jpeg,astounding,ostoundiino,ostoundiino,0.7619,0.7619
+rotate_noise,adaptive,image (9).jpeg,culture,culue,clue,0.8333,0.7273
+rotate_noise,adaptive,image (10).jpeg,nights,ch,ch,0.25,0.25
+rotate_noise,adaptive,image (11).jpeg,predator,ectotou,ectotou,0.4,0.4
+rotate_noise,adaptive,image (12).jpeg,universities,ul 8%3itz,up 8 3itz,0.2857,0.2857
+rotate_noise,adaptive,image (13).jpeg,students,studken,sudden,0.8,0.7143
+rotate_noise,adaptive,image (14).jpeg,organization,ce dl satbl,ce do sat,0.1739,0.2857
+rotate_noise,adaptive,image (15).jpeg,haircut,wy g,by g,0.0,0.0
+rotate_noise,adaptive,image (16).jpeg,the writing's on the wall,me kall tc nrihng's,me all to bring s,0.3636,0.3333
+rotate_noise,blur_threshold,image (1).jpeg,racist,rcst,rest,0.8,0.6
+rotate_noise,blur_threshold,image (2).jpeg,implications,implications,implication,1.0,0.9565
+rotate_noise,blur_threshold,image (3).jpeg,desire,"de sire,",de sire,0.8571,0.9231
+rotate_noise,blur_threshold,image (4).jpeg,amino,amino,among,1.0,0.6
+rotate_noise,blur_threshold,image (5).jpeg,gamma,gamma,mamma,1.0,0.8
+rotate_noise,blur_threshold,image (6).jpeg,genetic,genetic,genetic,1.0,1.0
+rotate_noise,blur_threshold,image (7).jpeg,plants,plants,plants,1.0,1.0
+rotate_noise,blur_threshold,image (8).jpeg,astounding,aslounding,astounding,0.9,1.0
+rotate_noise,blur_threshold,image (9).jpeg,culture,culture,culture,1.0,1.0
+rotate_noise,blur_threshold,image (10).jpeg,nights,,,0.0,0.0
+rotate_noise,blur_threshold,image (11).jpeg,predator,,,0.0,0.0
+rotate_noise,blur_threshold,image (12).jpeg,universities,ulu %sifi,ulu sifi,0.381,0.4
+rotate_noise,blur_threshold,image (13).jpeg,students,l < stde,l side,0.5,0.4286
+rotate_noise,blur_threshold,image (14).jpeg,organization,1 0 uluhi saf/,1 0 uluhi say,0.1538,0.16
+rotate_noise,blur_threshold,image (15).jpeg,haircut,cyt hafc =,cut had,0.3529,0.4286
+rotate_noise,blur_threshold,image (16).jpeg,the writing's on the wall,m mc wall vhc kriting's,m my wall the writing s,0.4167,0.5
